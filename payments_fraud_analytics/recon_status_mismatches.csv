@@ -1,0 +1,10 @@
+transaction_id,user_id_ledger,merchant_id_ledger,transaction_time_ledger,amount_inr_ledger,payment_method_ledger,status_ledger,risk_score_ledger,user_id_gateway,merchant_id_gateway,transaction_time_gateway,amount_inr_gateway,payment_method_gateway,status_gateway,risk_score_gateway
+TXN100042,295,25,2026-01-19 22:01:00,1499,UPI,captured,61,295,25,2026-01-19 22:01:00,1499,UPI,failed,61
+TXN100215,140,14,2026-01-20 14:26:00,299,Wallet,captured,96,140,14,2026-01-20 14:26:00,299,Wallet,failed,96
+TXN100267,329,31,2026-01-28 08:03:00,299,Wallet,captured,47,329,31,2026-01-28 08:03:00,299,Wallet,failed,47
+TXN100300,152,20,2026-01-03 10:42:00,49,UPI,captured,57,152,20,2026-01-03 10:42:00,49,UPI,failed,57
+TXN100392,269,32,2026-01-15 20:34:00,49,Card,captured,17,269,32,2026-01-15 20:34:00,49,Card,failed,17
+TXN100414,158,2,2026-01-15 21:51:00,1499,Card,captured,50,158,2,2026-01-15 21:51:00,1499,Card,failed,50
+TXN100487,38,6,2026-01-26 07:45:00,49,Wallet,captured,34,38,6,2026-01-26 07:45:00,49,Wallet,failed,34
+TXN200008,359,29,2026-01-25 22:00:00,2999,Card,chargeback,96,359,29,2026-01-25 22:00:00,2999,Card,failed,96
+TXN300027,59,23,2026-01-09 21:03:00,399,Card,captured,71,59,23,2026-01-09 21:03:00,399,Card,failed,71

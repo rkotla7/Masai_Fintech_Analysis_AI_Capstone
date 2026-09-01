@@ -1,0 +1,5 @@
+risk_tier,n_applicants,avg_predicted_proba,observed_default_rate,interest_rate_range
+Tier 1 (Lowest Risk),25,0.020172135299415476,0.08,9% - 11%
+Tier 2 (Low-Mid Risk),25,0.07304345383517162,0.12,12% - 15%
+Tier 3 (Mid-High Risk),25,0.2340279569105914,0.2,16% - 20%
+Tier 4 (Highest Risk),25,0.5876126835351316,0.4,21% - 28%
