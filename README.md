@@ -9,6 +9,7 @@ A single end-to-end analytics, machine-learning, and AI-assisted advisory platfo
 All datasets are synthetic and deterministic. No real Paytm customer or transaction data is used.
 
 ---
+```text
 
 ## Repository Structure
 

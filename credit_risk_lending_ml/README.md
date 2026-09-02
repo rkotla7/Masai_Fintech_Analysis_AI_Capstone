@@ -19,6 +19,7 @@ the EDA printout (default rate, missing %, train-derived median).
 
 ## What's in this folder
 | File | Task | Notes |
+|---|---|---|
 | `generate_data.py` + `credit_applicants.csv`, `txn_behaviour.csv` | Seed data | Seed 42; 400 applicants (measured default rate 20.25%, in the required 15–25% range), exactly 80 (20%) missing `credit_bureau_score`; 265-row behaviour table with 15 seeded anomalies |
 | `eda_preprocessing.py` | Part A | Thin-file flag → stratified 75/25 split (`random_state=42`) → train-only median imputation → one-hot encoding → train-only `StandardScaler` |
 | `classification_models.py`, `roc_curves.png`, `confusion_matrices.png`, `model_comparison.csv`, `risk_pricing_table.csv` | Part B | Logistic Regression vs. `DecisionTreeClassifier(random_state=42)`, full metric suite, 4-tier risk-pricing table |
@@ -47,6 +48,7 @@ the EDA printout (default rate, missing %, train-derived median).
 ## Model comparison (from the committed run)
 
 | Metric | Logistic Regression | Decision Tree |
+|---|---|---|
 | Accuracy | 0.76 | 0.67 |
 | Precision | 0.389 | 0.240 |
 | Recall | 0.350 | 0.300 |
