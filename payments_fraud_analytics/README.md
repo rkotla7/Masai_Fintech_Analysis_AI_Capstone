@@ -20,6 +20,7 @@ contains all 7 queries with their recorded output.
 
 ## What's in this folder
 | File | Task | Notes |
+|---|---|---|
 | `generate_data.py` + `merchants.csv`, `users.csv`, `ledger.csv`, `gateway_export.csv` | Seed data | Seed 42, reproduces the exact 547-row ledger (500 baseline + 15 burner-account + 32 velocity-attack rows) |
 | `merchant_workbook.xlsx` | Part A | VLOOKUP+IFERROR, HLOOKUP fee table, nested IF/AND classification, pivot table with unique-days-vs-count comparison |
 | `paytm_payments.db`, `fraud_pattern_detection_queries.sql` | Part B | Normalized schema (merchants/users/transactions with PK/FK); 7 SQL queries covering SELECT/WHERE/ORDER BY/LIMIT/DISTINCT, GROUP BY/HAVING, INNER JOIN, LEFT JOIN, chargeback-impact, burner-account, and velocity-attack detection |
